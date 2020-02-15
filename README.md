@@ -11,7 +11,7 @@ usuarios para enviar mensajes privados a los usuarios conectados.
 
 Se utiliza redis como broker de mensajes y para almacenar los datos del chat.
 
-INSTRUCCIONES PARA CORRER EL BACKEND DESDE LA IMAGEN DE DOCKER:
+INSTRUCCIONES PARA CORRER LA APLICACIÓN DESDE LA IMAGEN DE DOCKER:
 
 El proyecto completo se puede recrear con el archivo `docker-compose.yml` provisto en este repositorio, para ello correr 
 el siguiente comando: `docker-compose build`.
