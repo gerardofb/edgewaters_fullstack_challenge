@@ -13,12 +13,14 @@ Se utiliza redis como broker de mensajes y para almacenar los datos del chat.
 
 INSTRUCCIONES PARA CORRER EL BACKEND DESDE LA IMAGEN DE DOCKER:
 
-El proyecto completo se puede recrear con el archivo docker-compose.yml provisto en este repositorio, para ello correr 
-el siguiente comando: docker-compose build.
+El proyecto completo se puede recrear con el archivo `docker-compose.yml` provisto en este repositorio, para ello correr 
+el siguiente comando: `docker-compose build`.
 
-Una vez recreada la imagen se puede levantar el ambiente con este comando: docker-compose up --force-recreate.
+Una vez recreada la imagen se puede levantar el ambiente con este comando: `docker-compose up --force-recreate`.
 
 ANALIZAR LA ACTIVIDAD DE REDIS:
 
-Se puede acceder a redis dentro del contenedor de docker con el siguiente comando: docker exec -it edgewatersltd_redis_1 sh.
+Se puede acceder a redis dentro del contenedor de docker con el siguiente comando: `docker exec -it edgewatersltd_redis_1 sh`.
+
+Si el comando anterior no funciona, inspeccione los contenedores activos con el comando `docker ps -a` e ingrese el nombre del contenedor que está corriendo redis.
 
